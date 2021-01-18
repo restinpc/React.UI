@@ -1,0 +1,21 @@
+/**
+ * React.UI - App SCSS stylesheets.
+ *
+ * @version 0.0.1
+ * @author Aleksandr Vorkunov
+ */
+
+.styles {
+    &-header {
+        font-size: 50px;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    &-image {
+        $size: 90px;
+        width: $size;
+        height: $size;
+        margin: 25px 0 0 0;
+    }
+}

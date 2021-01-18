@@ -1,0 +1,40 @@
+{
+  "plugins": [
+    "@typescript-eslint",
+    "prettier",
+    "import"
+  ],
+  "extends": [
+    "airbnb-typescript/base",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "project": ["tsconfig.json"]
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "linebreak-style": ["Error", "windows"],
+    "indent": ["Error", 4],
+    "no-debugger": "off",
+    "no-console": 0,
+    "import/extensions": "off",
+    "@typescript-eslint/dot-notation": "off",
+    "@typescript-eslint/quotes": "off",
+    "@typescript-eslint/indent": "off",
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/comma-dangle": "off",
+    "@typescript-eslint/lines-between-class-members": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "max-len": "off",
+    "no-plusplus": "off",
+    "object-shorthand": "off",
+    "import/newline-after-import": "off",
+    "class-methods-use-this": "off"
+  }
+}
